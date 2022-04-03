@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.counter-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+.input-container {
+  margin-top: 2rem;
+}
