@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#btn {
+  background-color: darkred;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease;
+  outline: none;
+}
+
+#btn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}

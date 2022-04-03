@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+  background-color: purple;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.container {
+  font-size: 1.2rem;
+}
+
+body.dark {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}

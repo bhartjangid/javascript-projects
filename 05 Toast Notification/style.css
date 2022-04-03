@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+#container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.toast {
+  padding: 2rem;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+#btn {
+  background-color: transparent;
+  color: rgb(88, 11, 160);
+  padding: 1rem;
+  border: 2px solid rgb(88, 11, 160);
+  outline: none;
+  transition: all 0.3s ease;
+}
+#btn:hover {
+  background-color: rgb(88, 11, 160);
+  color: #fff;
+}
